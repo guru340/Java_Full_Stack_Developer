@@ -1,4 +1,4 @@
-package Sorting;
+package collection.Sorting;
 
 public class Number implements Comparable<Number>{
     int val;

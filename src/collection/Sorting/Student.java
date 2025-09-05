@@ -1,4 +1,4 @@
-package Sorting;
+package collection.Sorting;
 
 public class Student {
     int marks;

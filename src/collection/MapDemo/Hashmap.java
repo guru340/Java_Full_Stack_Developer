@@ -1,8 +1,5 @@
-package MapDemo;
+package collection.MapDemo;
 
-import com.sun.jdi.Value;
-
-import java.security.Key;
 import java.util.HashMap;
 import java.util.Map;
 

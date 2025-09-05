@@ -1,6 +1,4 @@
-package compareDemo;
-
-import java.util.ArrayList;
+package collection.compareDemo;
 
 public class Student implements Comparable<Student>{
     int id;

@@ -1,4 +1,4 @@
-package Wrapperclass;
+package collection.Wrapperclass;
 
 public class Demo {
     static void main() {
