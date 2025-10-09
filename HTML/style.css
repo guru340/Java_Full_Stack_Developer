@@ -1,0 +1,26 @@
+.para{
+    color: aqua;
+}
+
+body{
+    background-color: brown;
+    
+    background-repeat: repeat-x;
+    background-attachment: scroll;
+          
+    text-shadow: 1px 1px 1px ;
+}
+
+div~p{
+       background-color: aqua;
+       
+}
+p:hover{
+    color: blue;
+    
+}
+p::selection{
+    color: red;
+    background-color: yellow;
+   
+}

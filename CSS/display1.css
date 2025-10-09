@@ -1,0 +1,16 @@
+*{
+    margin:0;
+    padding: 0;
+}
+#lion{
+    height: 100px;
+    width: 100px;
+    background-color: #ff0000;
+    margin: 20px;
+}
+#leo{
+    height: 100px;
+    width: 100px;
+    background-color: greenyellow;
+    
+}

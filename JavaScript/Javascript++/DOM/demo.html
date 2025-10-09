@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="main-heading"> Welcome TO cfs</h1>
+    <p class="desc">spark 4.0</p>
+    <button id="btn">
+            Click me    
+    </button>
+
+    <li>
+        
+        <ul>Dsa</ul>
+        <ul>Spark </ul>
+        <ul>Spark 4.0</ul>
+        <ul>Spark 3.0</ul>
+        <ul>Spark 2.0</ul>
+        <ul>Spark 1.0</ul>
+    </li>
+
+    <!-- Fetching the tag from html -->
+    <script>
+        const heading=document.getElementById("main-heading");
+        console.log(heading.innerText);
+             
+        const para=document.getElementsByClassName('desc')[0];
+        console.log(para.innerText);
+        
+        const button=document.getElementById('btn');
+        console.log(btn.innerText);
+
+        // Select all list items using tag name
+        const itemname=document.getElementsByTagName("li");
+        for (const element of itemname) {
+            console.log(element.textContent);
+            
+        };
+
+
+        // Query Selector
+        const desc=document.querySelector(".desc");
+        console.log(desc);
+        
+        </script>
+</body>
+</html>

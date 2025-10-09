@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Edit Profile</h2>
+    <input type="text" id="nameInput"   palceholder="Enter your name"/>
+    <input type="text" id="bioInput" palceholder="Enter your bio"/>
+    <input type="text" id="imageInput" palceholder="Enter your imageURL"/>
+        <button onclick=updateProfile()>updateProfile</button>
+    <div id="profilecard" card="card">
+        <img id="profilePic"src="https://th.bing.com/th/id/OIP.KUvA7F4trlL8mOYxAR21bgHaEo?w=276&h=180&c=7&r=0&o=7&cb=12&pid=1.7&rm=3" 
+        alt=""
+        width="200"/>
+        
+        <h3 id="profileName">Sonal</h3>
+        <p id="profileBio">Full Stack Developer</p>
+    </div>
+
+    <script>
+       function updateProfile(){
+        const name = document.getElementById("nameInput").value;
+        const bio = document.getElementById("bioInput").value;
+        const img=document.getElementById("imageInput").value;
+        console.log(img);
+        document.getElementById("profileName").innerText=name;  
+        document.getElementById("profileBio").innerText=bio;  
+        document.getElementById("profilePic").setAttribute("src",img); 
+       };
+        
+    </script>
+    <style>
+        .card{
+            border:2opx salmon solid;
+            padding: 15px;
+            width:200px;
+            margin-top: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
+    </style>
+</body>
+</html>
