@@ -1,6 +1,6 @@
 🚀 Java Full Stack Developer Journey
 
-Welcome to my 100 Days of Java Full Stack Development Journey 👨‍💻✨
+Welcome to my  Java Full Stack Development Journey 👨‍💻✨
 This repository documents my daily progress as I learn and build projects in Java, Spring Boot, MySQL, Frontend, and Full Stack Development.
 
 
