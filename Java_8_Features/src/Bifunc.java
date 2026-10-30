@@ -7,6 +7,6 @@ public class Bifunc {
                 (a, b) -> a + b;
 
         System.out.println(sum.apply(10, 20)); // 30
-        System.out.println(sum.apply(5, 7));    // 12
+        System.out.println(sum.apply(5, 7));    
     }
 }
